@@ -27,19 +27,19 @@ SOLVER_PROFILES = {
         "style": "Use rigorous step-by-step derivations and verify with a quick sanity check.",
         "solve_temp": 0.2,
         "review_temp": 0.2,
-        "refine_temp": 0.2,
+        "refine_temp": 0.1,
     },
     "solver_2": {
-        "style": "Actively look for edge cases and alternative approaches; be skeptical of leaps.",
-        "solve_temp": 0.5,
-        "review_temp": 0.4,
-        "refine_temp": 0.3,
+        "style": "You must attempt to falsify the solution. For every major step, try to construct a counterexample. If no counterexample exists, explain why. Assume earlier steps are wrong unless proven.",
+        "solve_temp": 0.4,
+        "review_temp": 0.3,
+        "refine_temp": 0.2,
     },
     "solver_3": {
         "style": "Use heuristic reasoning first, then verify with explicit calculation.",
-        "solve_temp": 0.7,
-        "review_temp": 0.5,
-        "refine_temp": 0.4,
+        "solve_temp": 0.6,
+        "review_temp": 0.4,
+        "refine_temp": 0.25,
     },
 }
 
