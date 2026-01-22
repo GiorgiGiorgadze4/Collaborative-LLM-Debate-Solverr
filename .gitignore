@@ -83,8 +83,3 @@ Thumbs.db
 # ======================
 config.local.*
 settings.local.*
-
-.vscode/
-.venv
-__pycache__
-.env
