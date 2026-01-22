@@ -1,0 +1,8 @@
+{
+  "overall_accuracy": 0.3333333333333333,
+  "improvement_rate": 0.0,
+  "consensus_rate": 0.3333333333333333,
+  "judge_accuracy": 0.5,
+  "single_llm_baseline": 0.3333333333333333,
+  "simple_voting_baseline": 0.3333333333333333
+}
